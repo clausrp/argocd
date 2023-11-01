@@ -6,10 +6,10 @@ metadata:
 spec:
   destination:
     server: https://kubernetes.default.svc
-    namespace: student-<YOURNUMBER>
+    namespace: student-19
   project: default
   source:
-    repoURL: <YOUR GITHUB REPO>
+    repoURL: https://github.com/clausrp/argocd
     targetRevision: HEAD
     path: apps
   syncPolicy:
